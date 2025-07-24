@@ -3,7 +3,7 @@
 /**
  * Uninstall Plugin
  * 
- * @package CRM Key and ID
+ * @package Condosale Marketing Contact
  */
 
 if (!defined('WP_UNINSTALL_PLUGIN')) {
@@ -17,6 +17,10 @@ $wpdb->query("DROP TABLE IF EXISTS $table_name");
 $table_name = $wpdb->prefix . 'crm_radio';
 $wpdb->query("DROP TABLE IF EXISTS $table_name");
 $table_name = $wpdb->prefix . 'crm_broker';
+$wpdb->query("DROP TABLE IF EXISTS $table_name");
+$table_name = $wpdb->prefix . 'crm_agent';
+$wpdb->query("DROP TABLE IF EXISTS $table_name");
+$table_name = $wpdb->prefix . 'crm_form';
 $wpdb->query("DROP TABLE IF EXISTS $table_name");
 $wpdb->query("DELETE FROM wp_posts WHERE post_type ='crm'");
 $wpdb->query("DELETE FROM wp_postmeta WHERE post_id NOT IN (SELECT id FROM wp_posts)");
