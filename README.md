@@ -4,4 +4,4 @@
 - Boom Easy to integrate API's.
 
   
-![User Interface](https://github.com/Oleraj09/CRM/blob/master/assets/images/screencapture-localhost-OlerajMondol-plugin-wp-admin-admin-php-2024-08-05-03_43_24.png)
+![User Interface](https://github.com/Oleraj09/Condosale-API-Integration/blob/master/assets/images/screenshot.png)
